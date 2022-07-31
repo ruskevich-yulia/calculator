@@ -1,0 +1,71 @@
+.calculator_container {
+    display: flex;
+    flex-direction: column;
+    width: 361px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 12px;
+    margin:auto;
+    background: rgb(56,57,57);
+    background: linear-gradient(59deg, rgba(56,57,57,1) 0%, rgba(1,5,14,1) 100%);
+    gap: 21px;
+
+    }
+.display {
+    padding-top: 18px;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 60px;
+    justify-content: center;
+    align-self: center;
+    
+    
+}
+.input_number {
+    width: 300px;
+    height: 60px;
+    text-align: right;
+    font-size: 26px;
+    color: white;
+    border: none;
+    background-color: transparent;
+}
+
+.show_operator{
+    display: flex;
+    align-items: center;
+    margin-left: 21px;
+    height: 60px;
+    width: 40px;
+    color: white ;
+    font-size: 24px;
+    font-weight: bold;
+}
+.button_pannel {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:2px;
+}
+.button {
+    display: flex;
+    width: 80px;
+    height: 75px;
+    border: 1px solid darkcyan;
+    border-radius: 12px;
+    background-color: rgba(7, 158, 158, 0.27);
+    font-size: 24px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+    cursor: pointer;
+
+}  
+.button:hover {
+    background: rgb(98,99,106);
+    background: radial-gradient(circle, rgba(98,99,106,1) 0%, rgba(6,6,6,1) 100%);
+    transition: 1s;
+}   
